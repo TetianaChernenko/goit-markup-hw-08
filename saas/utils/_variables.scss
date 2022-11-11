@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto-Regular.woff') format('woff2'),
+        url('../../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto-Black.woff2') format('woff2'),
+        url('../../fonts/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../../fonts/Raleway-Bold.woff2') format('woff2'),
+        url('../../fonts/Raleway-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #2196F3;
+    --wite-color: #FFFFFF;
+    --logo-svg-color: #000000;
+    --background-color: #F5F5F5;
+    --background-secondary-color: #2F303A;
+    --background-auxiliary-color: #F5F4FA;
+    --background-button-hover: #188CE8;
+    --background-social-color: rgba(255, 255, 255, 0.1);
+    --background-services: rgba(47, 48, 58, 0.8);
+    --background-modal: rgba(0, 0, 0, 0.2);
+    --border-color: #EEEEEE;
+    --color-address: rgba(255, 255, 255, 0.6);
+    --color-social-icon: #AFB1B8;
+    --color-border: rgba(236, 236, 236, 1);
+    --border-input: rgba(33, 33, 33, 0.2);
+    --border-input-footer: rgba(255, 255, 255, 0.3);
+}
+

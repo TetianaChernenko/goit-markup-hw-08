@@ -1,0 +1,41 @@
+.services {
+    background: var(--wite-color);
+    padding-top: 0;
+}
+
+.services__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.services__flex {
+    display: flex;
+    gap: 30px;
+}
+
+
+.services__text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 70px;
+    background: var(--background-services);
+    font-weight: 700;
+    line-height: 1.14;
+    color: var(--wite-color);
+    text-transform: uppercase;
+}
+
+
+.services__thumb {
+    position: relative;
+}
