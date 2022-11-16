@@ -7,16 +7,33 @@
 }
 
 .clients__list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+    display: block;
+    
+
+    @media (min-width: 480px) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 }
 
 
 .clients__item {
     width: 170px;
     height: 92px;
+
+    @media (min-width: 480px) {
+        flex-basis: calc((100% - 30px) / 2);
+    }
+    
+    @media (min-width: 768px) {
+        flex-basis: calc((100% - 90px) / 3);
+    }
+    @media (min-width: 1200px) {
+        flex-basis: calc((100% - 150px) / 6);
+    }
 }
 
 

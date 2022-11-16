@@ -1,6 +1,11 @@
 .services {
+    display: none;
     background: var(--wite-color);
     padding-top: 0;
+
+    @media (min-width:1200px) {
+        display: block;
+    }
 }
 
 .services__title {
