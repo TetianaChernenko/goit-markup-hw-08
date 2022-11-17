@@ -65,6 +65,10 @@
     }
 }
 
+.mobile-menu__link--active {
+    color: var(--accent-color);
+}
+
 .mobile-menu__tel {
     display: block;
     margin-bottom: 32px;
